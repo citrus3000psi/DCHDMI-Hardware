@@ -3,7 +3,7 @@
   (general
     (links 432)
     (no_connects 2)
-    (area 121.924999 73.596999 188.643001 125.075001)
+    (area 121.924999 72.324999 188.643001 125.075001)
     (thickness 1.6)
     (drawings 58)
     (tracks 2026)
@@ -4504,7 +4504,7 @@
   (gr_text "@citrus3000psi\n" (at 170.45 103.65) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)))
   )
-  (gr_text "DCHDMI 1.2d" (at 170.45 101.85) (layer F.SilkS)
+  (gr_text "DCHDMI 1.2e" (at 170.45 101.85) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.25)))
   )
   (gr_circle (center 152.96 119.94) (end 153.08 120.17) (layer F.SilkS) (width 0.4))
