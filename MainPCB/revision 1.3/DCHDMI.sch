@@ -3506,7 +3506,7 @@ Text Label 5850 10800 0    51   ~ 0
 HRST
 Text Label 10500 9650 2    51   ~ 0
 HRST
-Text Label 11100 9650 0    51   ~ 0
+Text Label 11700 9650 0    51   ~ 0
 HRST_OUT
 Text Label 8850 7650 0    51   ~ 0
 HRST_OUT
@@ -3538,4 +3538,19 @@ $EndComp
 Wire Wire Line
 	2950 8600 2950 8800
 NoConn ~ 8400 9500
+$Comp
+L Device:R_Small R1
+U 1 1 5B96ECCA
+P 11450 9650
+F 0 "R1" V 11400 9600 50  0000 L BNN
+F 1 "470" V 11550 9600 50  0000 L BNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11450 9650 50  0001 C CNN
+F 3 "" H 11450 9650 50  0000 C CNN
+	1    11450 9650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11100 9650 11350 9650
+Wire Wire Line
+	11550 9650 11700 9650
 $EndSCHEMATC
