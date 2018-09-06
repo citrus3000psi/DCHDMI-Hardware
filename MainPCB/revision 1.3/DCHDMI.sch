@@ -3512,10 +3512,10 @@ Text Label 8850 7650 0    51   ~ 0
 HRST_OUT
 Text Label 8850 7750 0    51   ~ 0
 SRST
-Text Label 2850 2100 2    51   ~ 0
+Text Label 2950 2300 0    51   ~ 0
 SRST
 Wire Wire Line
-	2850 2100 2850 1950
+	2750 2050 2850 1950
 Wire Wire Line
 	2850 1950 2950 1950
 Connection ~ 12750 9250
@@ -3553,4 +3553,21 @@ Wire Wire Line
 	11100 9650 11350 9650
 Wire Wire Line
 	11550 9650 11700 9650
+$Comp
+L Device:R_Small R18
+U 1 1 5B986708
+P 2750 2150
+F 0 "R18" V 2700 2100 50  0000 L BNN
+F 1 "470" V 2850 2100 50  0000 L BNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2750 2150 50  0001 C CNN
+F 3 "" H 2750 2150 50  0000 C CNN
+	1    2750 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2250 2900 2250
+Wire Wire Line
+	2900 2250 2900 2300
+Wire Wire Line
+	2900 2300 2950 2300
 $EndSCHEMATC
