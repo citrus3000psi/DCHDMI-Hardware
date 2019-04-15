@@ -1,0 +1,7 @@
+Reference, Quantity, Value, Footprint
+C1 ,1,.1u 50,Capacitors_SMD:C_0402
+D1 ,1, 1N4148WT-7,Diodes_SMD:D_SOD-523
+R1 R2 ,2,47K,Resistors_SMD:R_0402
+R4 ,1,1K,Resistors_SMD:R_0402
+RN1 RN2 RN4 ,3, EXB-N8V470JX,Resistors_SMD:R_Array_Concave_4x0402
+RN3 ,1, EXB-2HV470JV,Resistors_SMD:R_Array_Convex_8x0602
